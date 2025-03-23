@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.lh_box {
+  width: 1108px;
+  height: 551px;
+  border: 2px solid red;
+  /* 自动设置外边距 */
+  margin: auto;
+}
+
+.lh_top {
+  height: 30px;
+  background-color: red;
+  text-align: center;
+}
+
+.lh_top ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  /* 换成一行 类似inline*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lh_top ul li {
+  width: 130px;
+  justify-content: center;
+  align-items: center;
+}
+
+.lh_top ul li a {
+  /* 去掉下划线 */
+  text-decoration: none;
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+.lh_content {
+  /* 将两个div块变成一行 */
+  display: flex;
+}
+
+.lh_img {
+  width: 405px;
+  margin: 42px;
+}
+
+.lh_text {
+  text-align: center;
+  width: 618px;
+}
+
+.p1 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 30px;
+  /* 增加 margin-bottom，避免与 p2 重叠 */
+  margin-bottom: 20px;
+}
+
+.p2 {
+  font-size: 41px;
+  margin-top: 0;
+  /* 保留 margin-bottom */
+  margin-bottom: 64px;
+}
+
+.p3 {
+  font-size: 16px;
+  color: #A00501;
+  font-weight: 600;
+}
+
+.p4 {
+  color: #A00501;
+  font-size: 54px;
+  font-weight: lighter;
+  /* 左外边距 */
+  margin-left: 30px;
+}
+
+
+.lh_buy {
+  width: 221px;
+  height: 44px;
+  line-height: 44px;
+  background-color: #A00501;
+  margin-top: 120px;
+  margin-left: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.lh_buy a {
+  text-decoration: none;
+  color: white;
+}
